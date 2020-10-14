@@ -10,7 +10,7 @@ def index():
 
     query = "Zagreb"
     unit = "metric"
-    apikey = "33816d308e4ea4e525a0eeb91f65c6dd"
+    apikey = "ovdje ubaci svoj api ključ :-)"
 
     url = "https://api.openweathermap.org/data/2.5/weather?q={0}&units={1}&appid={2}&lang=hr".format(query, unit, apikey)
 
